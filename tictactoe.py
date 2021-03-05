@@ -184,10 +184,3 @@ while not stopGame:
         else:
             print("Wrong data type entered. A correct entry example: A1\n")
         drawBoard()
-
-for row in cells:
-    row = cells.get(row)
-    for col in row:
-        col = row.get(col)
-        print(col)
-        # to change the column value --> row[col] = "gay" (Line 4)
